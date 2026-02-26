@@ -1,0 +1,209 @@
+/* GENEL SAYFA YAPISI */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f3f3f3;
+}
+
+/* PANEL KUTUSU */
+.panel-container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.1);
+}
+
+/* HOŞ GELDİNİZ BÖLÜMÜ */
+.welcome-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.welcome-box h2 {
+    font-size: 26px;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.welcome-box p {
+    color: #555;
+}
+
+/* MENÜ BUTONLARI */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.panel-button {
+    text-decoration: none;
+    padding: 15px;
+    background: linear-gradient(90deg, #1976d2, #42a5f5);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 12px rgba(25, 118, 210, 0.3);
+}
+
+.panel-button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+/* ÇIKIŞ YAP BUTONU */
+.logout {
+    background: linear-gradient(90deg, #d9534f, #f2746b);
+    box-shadow: 0 3px 12px rgba(217, 83, 79, 0.3);
+}
+
+.logout:hover {
+    background: linear-gradient(90deg, #c9302c, #f05a4b);
+}
+
+/* KULLANICI FORMU */
+.container {
+    width: 40%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #444;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #000;
+}
+
+.mesaj {
+    background: #e2ffe2;
+    padding: 10px;
+    color: #1a7a1a;
+    border: 1px solid #8ddc8d;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* RANDEVU FORMU */
+.randevu-container {
+    width: 40%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.randevu-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.randevu-container button {
+    background: linear-gradient(90deg, #1976d2, #42a5f5);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.randevu-container button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .container, .randevu-container {
+        width: 90%;
+        padding:20px;
+    }
+}
+
+/* YAN MENÜ */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background: #1976d2;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar button {
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.sidebar button:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+/* İÇERİK ALANI */
+.main-content {
+    margin-left: 200px; /* sidebar genişliği kadar boşluk */
+    padding: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        flex-direction: row;
+    }
+    .sidebar button {
+        flex: 1;
+        text-align: center;
+    }
+    .main-content {
+        margin-left: 0;
+        padding:20px;
+}
+}
