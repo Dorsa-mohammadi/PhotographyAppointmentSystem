@@ -27,11 +27,17 @@ Bu sistem sayesinde:
 
 # 🏠 Ana Sayfa (index.php)
 
-📷 screenshots/Anasayfa.PNG
-📷 screenshots/Anasayfa1.PNG 
-📷 screenshots/Anasayfa2.PNG  
-📷 screenshots/Anasayfa3.PNG
-📷 screenshots/Anasayfa4.PNG
+### 🏠 Anasayfa
+
+![Anasayfa](screenshots/Anasayfa1.png)
+
+![Anasayfa](screenshots/Anasayfa2.png)
+
+![Anasayfa](screenshots/Anasayfa3.png)
+
+![Anasayfa](screenshots/Anasayfa4.png)
+
+![Anasayfa](screenshots/Anasayfa5.png)
 
 **Özellikler:**
 
