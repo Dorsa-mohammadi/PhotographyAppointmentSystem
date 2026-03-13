@@ -29,15 +29,15 @@ Bu sistem sayesinde:
 
 ### 🏠 Anasayfa
 
-![Anasayfa](screenshots/Anasayfa1.png)
+![Anasayfa](screenshots/Anasayfa1.PNG)
 
-![Anasayfa](screenshots/Anasayfa2.png)
+![Anasayfa](screenshots/Anasayfa2.PNG)
 
-![Anasayfa](screenshots/Anasayfa3.png)
+![Anasayfa](screenshots/Anasayfa3.PNG)
 
-![Anasayfa](screenshots/Anasayfa4.png)
+![Anasayfa](screenshots/Anasayfa4.PNG)
 
-![Anasayfa](screenshots/Anasayfa5.png)
+![Anasayfa](screenshots/Anasayfa5.PNG)
 
 **Özellikler:**
 
