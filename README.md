@@ -30,14 +30,12 @@ Bu sistem sayesinde:
 ### 🏠 Anasayfa
 
 ![Anasayfa](screenshots/Anasayfa1.PNG)
-
 ![Anasayfa](screenshots/Anasayfa2.PNG)
-
 ![Anasayfa](screenshots/Anasayfa3.PNG)
-
 ![Anasayfa](screenshots/Anasayfa4.PNG)
-
 ![Anasayfa](screenshots/Anasayfa5.PNG)
+
+Ana sayfa uygulamanın ziyaretçilere açık olan bölümüdür. Kullanıcılar bu sayfa üzerinden sistem hakkında bilgi alabilir, paketleri inceleyebilir ve kayıt veya giriş işlemlerine ulaşabilir.
 
 **Özellikler:**
 
@@ -62,7 +60,9 @@ Bu sistem sayesinde:
 
 # 👤 Kullanıcı Kayıt Sayfası
 
-📷 screenshots/kayit.png
+![Kayıt Ol](screenshots/KayitOl.PNG)
+
+Bu sayfa yeni kullanıcıların sisteme kayıt olmasını sağlar. Kullanıcılar gerekli bilgileri girerek hesap oluşturabilir.
 
 **Özellikler:**
 
@@ -79,11 +79,15 @@ Bu sistem sayesinde:
 3. Yönetici panelinden onaylanır  
 4. Onay sonrası giriş yapabilir  
 
+Bu yapı sayesinde sistemde yalnızca **onaylanmış kullanıcılar işlem yapabilir**.
+
 ---
 
 # 🔐 Kullanıcı Giriş Sayfası
 
-📷 screenshots/kullanici_girisi.png
+![Kullanıcı Girişi](screenshots/KullaniciGirisi.PNG)
+
+Kullanıcılar bu sayfa üzerinden sisteme giriş yapabilir. Sistem giriş sırasında kullanıcı bilgilerini doğrular ve onay durumunu kontrol eder.
 
 **Özellikler:**
 
@@ -92,11 +96,15 @@ Bu sistem sayesinde:
 - Güvenli oturum başlatma  
 - Onaylanmamış kullanıcı giriş yapamaz  
 
+Başarılı giriş sonrası kullanıcı **kendi paneline yönlendirilir**.
+
 ---
 
 # 👩‍💼 Kullanıcı Paneli
 
-📷 screenshots/kullanici_panel.png
+![Kullanıcı Paneli](screenshots/kullaniciPaneli.PNG)
+
+Kullanıcı paneli, giriş yapan kullanıcıların sistem içerisindeki işlemlerini yönetebildiği ana kontrol alanıdır.
 
 **Kullanıcı İşlemleri:**
 
@@ -109,11 +117,15 @@ Bu sistem sayesinde:
 - Randevularımı görüntüleme  
 - Çıkış yapma  
 
+Bu panel sayesinde kullanıcılar **kendi hesaplarını ve randevularını kolayca yönetebilir**.
+
 ---
 
 # 📅 Randevu Oluşturma Sistemi
 
-📷 screenshots/randevu_olustur.png
+![Randevu Oluştur](screenshots/RandevuOlustur.PNG)
+
+Bu sayfa kullanıcıların fotoğraf çekimi için randevu oluşturmasını sağlar.
 
 **Randevu Özellikleri:**
 
@@ -129,11 +141,15 @@ Bu sistem sayesinde:
 - Aynı zaman aralığında başka kullanıcı randevu alamaz  
 - Geçmiş tarih ve saat için randevu oluşturulamaz  
 
+Bu mekanizma sayesinde sistem **çakışmasız randevu planlaması** sağlar.
+
 ---
 
 # 📋 Randevularım Sayfası
 
-📷 screenshots/randevularim.png
+![Randevularım](screenshots/Randevularim.PNG)
+
+Kullanıcılar bu sayfa üzerinden oluşturdukları tüm randevuları görüntüleyebilir.
 
 **Görüntüleme Türleri:**
 
@@ -143,15 +159,23 @@ Bu sistem sayesinde:
 - Geçmiş randevular  
 - Gelecek randevular  
 
+Bu sayede kullanıcılar randevularının **durumunu kolayca takip edebilir**.
+
 ---
 
 # 🛠 Yönetici Giriş Sayfası
 
-📷 screenshots/yonetici_girisi.png  
+![Yönetici Girişi](screenshots/YoneticiGirisi.PNG)
+
+Yönetici sisteme özel giriş ekranı üzerinden erişir. Bu sayfa yalnızca yetkili kullanıcıların yönetim paneline ulaşmasını sağlar.
+
+---
 
 # 🖥 Yönetici Paneli
 
-📷 screenshots/yonetici_panel.png
+![Yönetici Paneli](screenshots/YoneticiPaneli.PNG)
+
+Yönetici paneli sistemin tüm yönetim işlemlerinin gerçekleştirildiği ana kontrol merkezidir.
 
 **Yönetici Yetkileri:**
 
@@ -164,11 +188,48 @@ Bu sistem sayesinde:
 - Paket silme  
 - Paket aktif/pasif yapma  
 
+Bu panel sayesinde sistem **merkezi olarak yönetilebilir**.
+
+---
+
+# 👥 Kullanıcı Yönetimi
+
+![Kullanıcıları Listele](screenshots/KullanicilariListele.PNG)
+
+Bu bölüm yöneticinin sistemde kayıtlı kullanıcıları kontrol ettiği alandır.
+
+Yönetici bu sayfa üzerinden:
+
+- Sisteme kayıt olan kullanıcıları görüntüleyebilir  
+- Kullanıcıları onaylayabilir  
+- Gerekirse kullanıcıları silebilir veya düzenleyebilir  
+
+Bu mekanizma sayesinde sistemde yalnızca **geçerli ve onaylı kullanıcılar** aktif olur.
+
+---
+
+# 📅 Randevu Yönetimi
+
+![Randevular](screenshots/Randevular.PNG)
+
+Bu bölüm yönetici panelinde yer alır ve sistemde oluşturulan tüm randevuların kontrol edilmesini sağlar.
+
+Yönetici bu ekrandan:
+
+- Kullanıcıların oluşturduğu randevu taleplerini görüntüleyebilir  
+- Randevuları onaylayabilir  
+- Randevuları reddedebilir  
+- Gerekirse randevuları silebilir  
+
+Sistem ayrıca randevuların **paket süresi ve saat aralıklarına göre çakışmasını otomatik olarak kontrol eder**.
+
 ---
 
 # 📦 Paket Yönetim Sistemi
 
-📷 screenshots/paketler.png
+![Paketler](screenshots/paketler.PNG)
+
+Bu bölüm yöneticinin fotoğraf çekimi paketlerini oluşturduğu ve yönettiği alandır.
 
 **Paket Alanları:**
 
@@ -182,6 +243,8 @@ Bu sistem sayesinde:
 
 - Sadece aktif paketler kullanıcıya görünür  
 - Paket süresi randevu çakışma kontrolünde kullanılır  
+
+Bu yapı sayesinde paketler sistem içinde **esnek şekilde yönetilebilir**.
 
 ---
 
@@ -224,15 +287,21 @@ Bu sistem sayesinde:
 
 # 🔒 Güvenlik Özellikleri
 
+Sistem temel güvenlik prensipleri dikkate alınarak geliştirilmiştir.
+
 - Oturum kontrolü (Session kontrolü)  
 - Yetki bazlı sayfa erişimi  
 - Onaysız kullanıcı giriş engeli  
 - Geçmiş tarih kontrolü  
 - Çakışma engelleme algoritması  
 
+Bu sayede sistem **yetkisiz erişimlere karşı korunur**.
+
 ---
 
 # 📱 Responsive Tasarım
+
+Uygulama farklı ekran boyutlarına uyum sağlayacak şekilde geliştirilmiştir.
 
 - Mobil uyumlu  
 - Tablet uyumlu  
@@ -241,6 +310,8 @@ Bu sistem sayesinde:
 - Esnek slider yapısı  
 
 ---
+
+
 
 # 📂 Proje Klasör Yapısı
 
@@ -263,7 +334,7 @@ database.sql
 
 1. Projeyi klonlayın:  
 ```
-git clone https://github.com/kullaniciadi/fotografci-randevu-otomasyon.git
+git clone https://github.com/kullaniciadi/PhotographyAppointmentSystem.git
 ```
 
 2. Veritabanını içe aktarın  
