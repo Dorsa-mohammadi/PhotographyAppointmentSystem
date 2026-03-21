@@ -102,7 +102,7 @@ Başarılı giriş sonrası kullanıcı **kendi paneline yönlendirilir**.
 
 # 👩‍💼 Kullanıcı Paneli
 
-![Kullanıcı Paneli](screenshots/kullaniciPaneli.PNG)
+![Kullanıcı Paneli](screenshots/KullaniciPaneli.PNG)
 
 Kullanıcı paneli, giriş yapan kullanıcıların sistem içerisindeki işlemlerini yönetebildiği ana kontrol alanıdır.
 
@@ -227,7 +227,7 @@ Sistem ayrıca randevuların **paket süresi ve saat aralıklarına göre çakı
 
 # 📦 Paket Yönetim Sistemi
 
-![Paketler](screenshots/paketler.PNG)
+![Paketler](screenshots/Paketler.PNG)
 
 Bu bölüm yöneticinin fotoğraf çekimi paketlerini oluşturduğu ve yönettiği alandır.
 
